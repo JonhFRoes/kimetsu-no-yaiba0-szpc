@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Kimetsu no Yaiba - Semana do Zero Ao Programado Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Ysabeau+Infant:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imgem/logo-kimetsu-no-yaiba-removebg-preview.png" alt="Logo Kimetsu no Yaiba">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="tanjirou-kamado" data-name="Tanjiro Kamado" data-description="Tanjiro Kamado é um Caçador de Oni de ranking Kanoe; usuario da respiração da água e da respiração do Sol">
+                    <img src="./src/imgem/card-tanjirou-kamado.jpg" alt="Personagem Tanjiro Kamado">
+                </li>
+                <li class="personagem" id="zenitsu-agatsuma" data-name="Zenitsu Agatsuma" data-description="Zenitsu Agatsuma é um Caçador de Oni de ranking Kanoe; usuario da primeia forma da respiração do trovão e criador da setima forma">
+                    <img src="./src/imgem/card-zenitsu-agatsuma.jpg" alt="Personagem Zenitsu Agatsuma">
+                </li>
+                <li class="personagem" id="inosuke-hashibira" data-name="Inosuke Hashibira" data-description="Inosuke Hashibira é um Caçador de Oni de ranking Kanoe; usuario e criador da respiração da besta">
+                    <img src="./src/imgem/card-inosuke-hashibira.jpg" alt="Personagem Inosuke Hashibira">
+                </li>
+                <li class="personagem" id="nezuko-kamado" data-name="Nezuko Kamado" data-description="Nezuko Kamado é a irmã mais nova de Tanjiro, possui um Kekkijutsu capaz de inflamar seu sangue">
+                    <img src="./src/imgem/card-nezuko-kamado.jpg" alt="Personagem Nesuko Kamado">
+                </li>
+                <li class="personagem" id="kyojuro-rengoku" data-name="Kyojuro Rengoku" data-description="Kyojuro Rengoku é um Caçador de Oni de ranking Hashira; usuario da respiraçãodo fogo">
+                    <img src="./src/imgem/card-kyojuro-rengoku.jpg" alt="Personagem Kyojuro Rengoku">
+                </li>
+                <li class="personagem" id="tengen-uzui" data-name="Tengen Uzui" data-description="Tengen Uzui é um Caçador de Oni de ranking Hashira; usuario e criador da respiração do som">
+                    <img src="./src/imgem/card-tengen-uzui.jpg" alt="Personagem Tengen Uzui">
+                </li>
+                <li class="personagem" id="giyu-tomioka" data-name="Giyu Tomioka" data-description="Giyu Tomioka é um Caçador de Oni de ranking Hashira; usuario da respiração da água e criador da décima primeira forma">
+                    <img src="./src/imgem/card-giyu-tomioka.jpg" alt="Personagem Giyu Tomioka">
+                </li>
+                <li class="personagem" id="shinabu-kochou" data-name="Shinobu Kochou" data-description="Shinobu Kochou é uma Caçadora de ranking Hashira; usuaria e criadora da respiração do inseto">
+                    <img src="./src/imgem/card-shinabu-kochou.jpg" alt="Personagem Shinobu Kochou">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imgem/card-tanjirou-kamado.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Tanjiro Kamado</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Tanjiro Kamado é um Caçador de Oni de rankingKanoe; usuario da
+                    respiração da água e da respiração do Sol</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
